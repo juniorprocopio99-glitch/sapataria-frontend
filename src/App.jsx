@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react'
 import api from './services/api'
 
 function App() {
+
   const [mensagem, setMensagem] = useState('Carregando...')
 
   useEffect(() => {
